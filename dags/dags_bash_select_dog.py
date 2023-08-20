@@ -12,12 +12,12 @@ with DAG(
 
     t1_dachshund = BashOperator(
         task_id="t1_dachshund",
-        bash_command="/plugins/shell/select_dog.sh DACHSHUND",
+        bash_command="/opt/airflow/plugins/shell/select_dog.sh DACHSHUND",
     )
 
     t2_pomeranian = BashOperator(
         task_id="t2_pomeranian",
-        bash_command="/plugins/shell/select_dog.sh POMERANIAN",
+        bash_command="/opt/airflow/plugins/shell/select_dog.sh POMERANIAN",
     )
 
     t1_dachshund >> t2_pomeranian
