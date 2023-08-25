@@ -551,3 +551,31 @@
 [2023-08-25T01:34:03.168+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:34:03.168+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-25T01:34:03.197+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:34:03.197+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
 [2023-08-25T01:34:03.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_conn_test.py took 0.128 seconds
+[2023-08-25T01:34:34.051+0000] {processor.py:157} INFO - Started process (PID=585) to work on /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:34:34.053+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_conn_test.py for tasks to queue
+[2023-08-25T01:34:34.054+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:34:34.054+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:34:34.101+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_conn_test']) retrieved from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:34:34.186+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:34:34.185+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-25T01:34:34.294+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:34:34.294+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2023-08-25T01:34:34.344+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_conn_test.py took 0.297 seconds
+[2023-08-25T01:35:05.010+0000] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:35:05.012+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_conn_test.py for tasks to queue
+[2023-08-25T01:35:05.013+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:35:05.013+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:35:05.049+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_conn_test']) retrieved from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:35:05.098+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:35:05.098+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-25T01:35:05.143+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:35:05.143+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2023-08-25T01:35:05.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_conn_test.py took 0.188 seconds
+[2023-08-25T01:35:35.753+0000] {processor.py:157} INFO - Started process (PID=741) to work on /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:35:35.754+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_conn_test.py for tasks to queue
+[2023-08-25T01:35:35.755+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:35:35.755+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:35:35.783+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_conn_test']) retrieved from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:35:35.809+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:35:35.809+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-25T01:35:35.837+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:35:35.837+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2023-08-25T01:35:35.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_conn_test.py took 0.128 seconds
+[2023-08-25T01:36:06.451+0000] {processor.py:157} INFO - Started process (PID=819) to work on /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:36:06.454+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_conn_test.py for tasks to queue
+[2023-08-25T01:36:06.457+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:36:06.457+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:36:06.524+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_conn_test']) retrieved from /opt/airflow/dags/dags_conn_test.py
+[2023-08-25T01:36:06.581+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:36:06.581+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-25T01:36:06.627+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:36:06.627+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2023-08-25T01:36:06.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_conn_test.py took 0.261 seconds
