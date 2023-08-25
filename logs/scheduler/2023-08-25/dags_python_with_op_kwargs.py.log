@@ -1,0 +1,68 @@
+[2023-08-25T01:26:37.028+0000] {processor.py:157} INFO - Started process (PID=5289) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:26:37.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-25T01:26:37.033+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:26:37.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:26:37.114+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:26:37.110+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 17
+    op_kwargs= {'email':'hockey9322@naver.com','phone':'010'}
+            ^
+SyntaxError: invalid syntax
+[2023-08-25T01:26:37.117+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:26:37.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.194 seconds
+[2023-08-25T01:27:08.054+0000] {processor.py:157} INFO - Started process (PID=5367) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:27:08.059+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-25T01:27:08.063+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:27:08.062+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:27:08.114+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:27:08.113+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 17
+    op_kwargs= {'email':'hockey9322@naver.com','phone':'010'}
+            ^
+SyntaxError: invalid syntax
+[2023-08-25T01:27:08.115+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:27:08.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.121 seconds
+[2023-08-25T01:27:38.432+0000] {processor.py:157} INFO - Started process (PID=5445) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:27:38.433+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-25T01:27:38.434+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:27:38.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:27:38.458+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:27:38.457+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 17
+    op_kwargs= {'email':'hockey9322@naver.com','phone':'010'}
+            ^
+SyntaxError: invalid syntax
+[2023-08-25T01:27:38.458+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:27:38.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.068 seconds
+[2023-08-25T01:28:09.383+0000] {processor.py:157} INFO - Started process (PID=5523) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:28:09.388+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-25T01:28:09.392+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:28:09.391+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:28:09.474+0000] {logging_mixin.py:150} INFO - [2023-08-25T01:28:09.472+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 17
+    op_kwargs= {'email':'hockey9322@naver.com','phone':'010'}
+            ^
+SyntaxError: invalid syntax
+[2023-08-25T01:28:09.475+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-25T01:28:09.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.149 seconds
