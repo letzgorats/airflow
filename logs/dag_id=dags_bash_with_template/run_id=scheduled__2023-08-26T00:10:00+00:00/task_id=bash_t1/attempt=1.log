@@ -1,0 +1,23 @@
+[2023-08-27T06:19:26.557+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1 permission to 509
+[2023-08-27T06:19:26.559+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1'
+[2023-08-27T06:19:26.627+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1 permission to 509
+[2023-08-27T06:19:26.628+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1'
+[2023-08-27T06:19:26.831+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_with_template.bash_t1 scheduled__2023-08-26T00:10:00+00:00 [queued]>
+[2023-08-27T06:19:26.841+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_with_template.bash_t1 scheduled__2023-08-26T00:10:00+00:00 [queued]>
+[2023-08-27T06:19:26.842+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-27T06:19:26.887+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): bash_t1> on 2023-08-26 00:10:00+00:00
+[2023-08-27T06:19:26.892+0000] {standard_task_runner.py:57} INFO - Started process 71 to run task
+[2023-08-27T06:19:26.896+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_with_template', 'bash_t1', 'scheduled__2023-08-26T00:10:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_with_template.py', '--cfg-path', '/tmp/tmpp_vz_9bw']
+[2023-08-27T06:19:26.898+0000] {standard_task_runner.py:85} INFO - Job 45: Subtask bash_t1
+[2023-08-27T06:19:26.963+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1 permission to 509
+[2023-08-27T06:19:26.964+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_with_template/run_id=scheduled__2023-08-26T00:10:00+00:00/task_id=bash_t1'
+[2023-08-27T06:19:26.967+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_with_template.bash_t1 scheduled__2023-08-26T00:10:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-27T06:19:27.187+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_with_template' AIRFLOW_CTX_TASK_ID='bash_t1' AIRFLOW_CTX_EXECUTION_DATE='2023-08-26T00:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-26T00:10:00+00:00'
+[2023-08-27T06:19:27.189+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-27T06:19:27.190+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "data_interval_end: 2023-08-27T00:10:00+00:00" ']
+[2023-08-27T06:19:27.203+0000] {subprocess.py:86} INFO - Output:
+[2023-08-27T06:19:27.204+0000] {subprocess.py:93} INFO - data_interval_end: 2023-08-27T00:10:00+00:00
+[2023-08-27T06:19:27.205+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-27T06:19:27.275+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_bash_with_template, task_id=bash_t1, execution_date=20230826T001000, start_date=20230827T061926, end_date=20230827T061927
+[2023-08-27T06:19:27.349+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-27T06:19:27.374+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
