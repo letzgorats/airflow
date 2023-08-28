@@ -32,4 +32,4 @@ with DAG(
         print(value2_of_task1)
         print(value2_of_task2)
 
-    xcom_push1 >> xcom_push2 >> xcom_pull
+    xcom_push1() >> xcom_push2() >> xcom_pull()
