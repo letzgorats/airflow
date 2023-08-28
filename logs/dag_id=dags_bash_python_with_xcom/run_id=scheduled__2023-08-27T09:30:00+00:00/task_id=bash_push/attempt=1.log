@@ -1,0 +1,48 @@
+[2023-08-28T21:25:07.366+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509
+[2023-08-28T21:25:07.368+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push'
+[2023-08-28T21:25:07.412+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509
+[2023-08-28T21:25:07.418+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push'
+[2023-08-28T21:25:07.575+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.bash_push scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:25:07.585+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.bash_push scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:25:07.586+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-28T21:25:07.669+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): bash_push> on 2023-08-27 09:30:00+00:00
+[2023-08-28T21:25:07.673+0000] {standard_task_runner.py:57} INFO - Started process 85 to run task
+[2023-08-28T21:25:07.676+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_python_with_xcom', 'bash_push', 'scheduled__2023-08-27T09:30:00+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_python_with_xcom.py', '--cfg-path', '/tmp/tmptvigap4r']
+[2023-08-28T21:25:07.678+0000] {standard_task_runner.py:85} INFO - Job 105: Subtask bash_push
+[2023-08-28T21:25:07.810+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509
+[2023-08-28T21:25:07.811+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push'
+[2023-08-28T21:25:07.816+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_python_with_xcom.bash_push scheduled__2023-08-27T09:30:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-28T21:25:07.987+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_python_with_xcom' AIRFLOW_CTX_TASK_ID='bash_push' AIRFLOW_CTX_EXECUTION_DATE='2023-08-27T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-27T09:30:00+00:00'
+[2023-08-28T21:25:07.989+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-28T21:25:07.991+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo PUSH_START None && echo PUSH_COMPLETE']
+[2023-08-28T21:25:07.999+0000] {subprocess.py:86} INFO - Output:
+[2023-08-28T21:25:08.000+0000] {subprocess.py:93} INFO - PUSH_START None
+[2023-08-28T21:25:08.001+0000] {subprocess.py:93} INFO - PUSH_COMPLETE
+[2023-08-28T21:25:08.001+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-28T21:25:08.041+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_bash_python_with_xcom, task_id=bash_push, execution_date=20230827T093000, start_date=20230828T212507, end_date=20230828T212508
+[2023-08-28T21:25:08.089+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-28T21:25:08.137+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-08-28T21:26:39.323+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509
+[2023-08-28T21:26:39.324+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push'
+[2023-08-28T21:26:39.393+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509
+[2023-08-28T21:26:39.394+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push'
+[2023-08-28T21:26:39.546+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.bash_push scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:26:39.555+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.bash_push scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:26:39.556+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-28T21:26:39.683+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): bash_push> on 2023-08-27 09:30:00+00:00
+[2023-08-28T21:26:39.688+0000] {standard_task_runner.py:57} INFO - Started process 126 to run task
+[2023-08-28T21:26:39.691+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_python_with_xcom', 'bash_push', 'scheduled__2023-08-27T09:30:00+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_python_with_xcom.py', '--cfg-path', '/tmp/tmp6q15qgkn']
+[2023-08-28T21:26:39.694+0000] {standard_task_runner.py:85} INFO - Job 110: Subtask bash_push
+[2023-08-28T21:26:39.783+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509
+[2023-08-28T21:26:39.784+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=bash_push'
+[2023-08-28T21:26:39.788+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_python_with_xcom.bash_push scheduled__2023-08-27T09:30:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-28T21:26:40.015+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_python_with_xcom' AIRFLOW_CTX_TASK_ID='bash_push' AIRFLOW_CTX_EXECUTION_DATE='2023-08-27T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-27T09:30:00+00:00'
+[2023-08-28T21:26:40.017+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-28T21:26:40.018+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo PUSH_START None && echo PUSH_COMPLETE']
+[2023-08-28T21:26:40.029+0000] {subprocess.py:86} INFO - Output:
+[2023-08-28T21:26:40.031+0000] {subprocess.py:93} INFO - PUSH_START None
+[2023-08-28T21:26:40.032+0000] {subprocess.py:93} INFO - PUSH_COMPLETE
+[2023-08-28T21:26:40.032+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-28T21:26:40.085+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_bash_python_with_xcom, task_id=bash_push, execution_date=20230827T093000, start_date=20230828T212639, end_date=20230828T212640
+[2023-08-28T21:26:40.145+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-28T21:26:40.168+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

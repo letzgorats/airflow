@@ -1,0 +1,42 @@
+[2023-08-28T21:25:09.983+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509
+[2023-08-28T21:25:09.984+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull'
+[2023-08-28T21:25:10.029+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509
+[2023-08-28T21:25:10.031+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull'
+[2023-08-28T21:25:10.194+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.python_pull scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:25:10.204+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.python_pull scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:25:10.204+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-28T21:25:10.238+0000] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): python_pull> on 2023-08-27 09:30:00+00:00
+[2023-08-28T21:25:10.244+0000] {standard_task_runner.py:57} INFO - Started process 92 to run task
+[2023-08-28T21:25:10.247+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_python_with_xcom', 'python_pull', 'scheduled__2023-08-27T09:30:00+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_python_with_xcom.py', '--cfg-path', '/tmp/tmpcu5vmd_9']
+[2023-08-28T21:25:10.249+0000] {standard_task_runner.py:85} INFO - Job 107: Subtask python_pull
+[2023-08-28T21:25:10.329+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509
+[2023-08-28T21:25:10.330+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull'
+[2023-08-28T21:25:10.332+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_python_with_xcom.python_pull scheduled__2023-08-27T09:30:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-28T21:25:10.448+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_python_with_xcom' AIRFLOW_CTX_TASK_ID='python_pull' AIRFLOW_CTX_EXECUTION_DATE='2023-08-27T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-27T09:30:00+00:00'
+[2023-08-28T21:25:10.466+0000] {logging_mixin.py:150} INFO - status_value:200
+[2023-08-28T21:25:10.467+0000] {logging_mixin.py:150} INFO - return_value:PUSH_COMPLETE
+[2023-08-28T21:25:10.467+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-28T21:25:10.476+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_bash_python_with_xcom, task_id=python_pull, execution_date=20230827T093000, start_date=20230828T212510, end_date=20230828T212510
+[2023-08-28T21:25:10.539+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-28T21:25:10.556+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-28T21:26:41.287+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509
+[2023-08-28T21:26:41.289+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull'
+[2023-08-28T21:26:41.335+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509
+[2023-08-28T21:26:41.336+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull'
+[2023-08-28T21:26:41.494+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.python_pull scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:26:41.502+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.python_pull scheduled__2023-08-27T09:30:00+00:00 [queued]>
+[2023-08-28T21:26:41.503+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-28T21:26:41.549+0000] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): python_pull> on 2023-08-27 09:30:00+00:00
+[2023-08-28T21:26:41.554+0000] {standard_task_runner.py:57} INFO - Started process 133 to run task
+[2023-08-28T21:26:41.557+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_python_with_xcom', 'python_pull', 'scheduled__2023-08-27T09:30:00+00:00', '--job-id', '112', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_python_with_xcom.py', '--cfg-path', '/tmp/tmpt4_79j2a']
+[2023-08-28T21:26:41.560+0000] {standard_task_runner.py:85} INFO - Job 112: Subtask python_pull
+[2023-08-28T21:26:41.630+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509
+[2023-08-28T21:26:41.630+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_bash_python_with_xcom/run_id=scheduled__2023-08-27T09:30:00+00:00/task_id=python_pull'
+[2023-08-28T21:26:41.633+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_python_with_xcom.python_pull scheduled__2023-08-27T09:30:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-28T21:26:41.812+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_python_with_xcom' AIRFLOW_CTX_TASK_ID='python_pull' AIRFLOW_CTX_EXECUTION_DATE='2023-08-27T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-27T09:30:00+00:00'
+[2023-08-28T21:26:41.836+0000] {logging_mixin.py:150} INFO - status_value:200
+[2023-08-28T21:26:41.837+0000] {logging_mixin.py:150} INFO - return_value:PUSH_COMPLETE
+[2023-08-28T21:26:41.838+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-28T21:26:41.849+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_bash_python_with_xcom, task_id=python_pull, execution_date=20230827T093000, start_date=20230828T212641, end_date=20230828T212641
+[2023-08-28T21:26:42.051+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-28T21:26:42.072+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
