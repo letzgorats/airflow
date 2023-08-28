@@ -2420,3 +2420,38 @@
 [2023-08-28T08:53:50.710+0000] {logging_mixin.py:150} INFO - [2023-08-28T08:53:50.710+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-28T08:53:50.735+0000] {logging_mixin.py:150} INFO - [2023-08-28T08:53:50.735+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_op_kwargs to 2023-08-28T06:30:00+00:00, run_after=2023-08-29T06:30:00+00:00
 [2023-08-28T08:53:50.775+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.138 seconds
+[2023-08-28T19:44:51.133+0000] {processor.py:157} INFO - Started process (PID=40) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:44:51.135+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-28T19:44:51.136+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:44:51.136+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:44:51.193+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_op_kwargs']) retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:44:51.413+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:44:51.413+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-28T19:44:51.443+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:44:51.443+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_op_kwargs to 2023-08-28T06:30:00+00:00, run_after=2023-08-29T06:30:00+00:00
+[2023-08-28T19:44:51.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.354 seconds
+[2023-08-28T19:45:21.748+0000] {processor.py:157} INFO - Started process (PID=131) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:45:21.750+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-28T19:45:21.751+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:45:21.751+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:45:21.811+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_op_kwargs']) retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:45:21.838+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:45:21.838+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-28T19:45:21.869+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:45:21.869+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_op_kwargs to 2023-08-28T06:30:00+00:00, run_after=2023-08-29T06:30:00+00:00
+[2023-08-28T19:45:21.909+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.164 seconds
+[2023-08-28T19:45:52.804+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:45:52.805+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-28T19:45:52.806+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:45:52.805+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:45:52.855+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_op_kwargs']) retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:45:52.877+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:45:52.877+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-28T19:45:52.908+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:45:52.907+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_op_kwargs to 2023-08-28T06:30:00+00:00, run_after=2023-08-29T06:30:00+00:00
+[2023-08-28T19:45:52.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.146 seconds
+[2023-08-28T19:46:23.020+0000] {processor.py:157} INFO - Started process (PID=305) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:46:23.021+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-28T19:46:23.022+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:46:23.022+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:46:23.074+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_op_kwargs']) retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:46:23.096+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:46:23.095+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-28T19:46:23.127+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:46:23.127+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_op_kwargs to 2023-08-28T06:30:00+00:00, run_after=2023-08-29T06:30:00+00:00
+[2023-08-28T19:46:23.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.190 seconds
+[2023-08-28T19:46:53.697+0000] {processor.py:157} INFO - Started process (PID=392) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:46:53.698+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2023-08-28T19:46:53.699+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:46:53.699+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:46:53.750+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_op_kwargs']) retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2023-08-28T19:46:53.785+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:46:53.784+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-28T19:46:53.838+0000] {logging_mixin.py:150} INFO - [2023-08-28T19:46:53.837+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_op_kwargs to 2023-08-28T06:30:00+00:00, run_after=2023-08-29T06:30:00+00:00
+[2023-08-28T19:46:53.905+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.211 seconds
