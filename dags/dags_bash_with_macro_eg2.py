@@ -14,8 +14,8 @@ with DAG(
     bash_task_t2 = BashOperator(
         task_id = "bash_task_t2",
         # UTC기준이 아닌 한국 시간기준이라면 data_interval_start.in_timezone("Asia/Seoul") 을 넣어야 합니다.
-        env={'START_DATE':'{{ (data_interval_end - macros.dateutil.relativedelta.relativedelta(days=33)) | ds}}',
-             'END_DATE':'{{ (data_interval_end - macros.dateutil.relativedelta.relativedelta(days=28)) | ds}}'
+        env={'START_DATE':'{{ (data_interval_end - macros.dateutil.relativedelta.relativedelta(days=19)) | ds}}',
+             'END_DATE':'{{ (data_interval_end - macros.dateutil.relativedelta.relativedelta(days=14)) | ds}}'
              },
              bash_command='echo "START_DATE: $START_DATE" && echo "END_DATE: $END_DATE"'
     )
