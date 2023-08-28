@@ -21,7 +21,7 @@ with DAG(
         task_id='send_email',
         to = 'hockey9322@naver.com',
         subject = '{{ data_interval_end | ds }} dog_find 처리결과',
-        html_content = '{{ data_intrval_end | ds }} 처리 결과 <br> 알루는 {{ ti.xcom_pull(task_ids="find_dog_task")}} 입니다. <br>'
+        html_content = '{{ data_interval_end | ds }} 처리 결과 <br> 알루는 {{ ti.xcom_pull(task_ids="find_dog_task")}} 입니다. <br>'
     )
 
     dog_find() >> send_email
