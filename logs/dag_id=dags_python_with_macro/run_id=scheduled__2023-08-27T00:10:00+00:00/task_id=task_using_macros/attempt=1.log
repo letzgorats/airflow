@@ -1,0 +1,21 @@
+[2023-08-28T06:36:54.067+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros permission to 509
+[2023-08-28T06:36:54.068+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros'
+[2023-08-28T06:36:54.111+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros permission to 509
+[2023-08-28T06:36:54.112+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros'
+[2023-08-28T06:36:54.251+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_python_with_macro.task_using_macros scheduled__2023-08-27T00:10:00+00:00 [queued]>
+[2023-08-28T06:36:54.260+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_python_with_macro.task_using_macros scheduled__2023-08-27T00:10:00+00:00 [queued]>
+[2023-08-28T06:36:54.261+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-28T06:36:54.294+0000] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): task_using_macros> on 2023-08-27 00:10:00+00:00
+[2023-08-28T06:36:54.298+0000] {standard_task_runner.py:57} INFO - Started process 90 to run task
+[2023-08-28T06:36:54.301+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_python_with_macro', 'task_using_macros', 'scheduled__2023-08-27T00:10:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_with_macro.py', '--cfg-path', '/tmp/tmpb5cngi38']
+[2023-08-28T06:36:54.304+0000] {standard_task_runner.py:85} INFO - Job 84: Subtask task_using_macros
+[2023-08-28T06:36:54.365+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros permission to 509
+[2023-08-28T06:36:54.366+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_with_macro/run_id=scheduled__2023-08-27T00:10:00+00:00/task_id=task_using_macros'
+[2023-08-28T06:36:54.369+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_python_with_macro.task_using_macros scheduled__2023-08-27T00:10:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-28T06:36:54.516+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_python_with_macro' AIRFLOW_CTX_TASK_ID='task_using_macros' AIRFLOW_CTX_EXECUTION_DATE='2023-08-27T00:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-27T00:10:00+00:00'
+[2023-08-28T06:36:54.518+0000] {logging_mixin.py:150} INFO - 2023-07-01
+[2023-08-28T06:36:54.518+0000] {logging_mixin.py:150} INFO - 2023-07-31
+[2023-08-28T06:36:54.519+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-28T06:36:54.528+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_python_with_macro, task_id=task_using_macros, execution_date=20230827T001000, start_date=20230828T063654, end_date=20230828T063654
+[2023-08-28T06:36:54.594+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-28T06:36:54.614+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
