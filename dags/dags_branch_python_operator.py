@@ -6,7 +6,7 @@ from airflow.operators.python import BranchPythonOperator
 
 with DAG(
     dag_id = "dags_branch_python_operator",
-    start_date = datetime(2023,8,1,tz="UTC"),
+    start_date = datetime(2023,8,1),
     schedule=None,
     catchup=False
 ) as dag:

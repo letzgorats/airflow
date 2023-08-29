@@ -1293,3 +1293,31 @@
 [2023-08-29T02:42:26.449+0000] {logging_mixin.py:150} INFO - [2023-08-29T02:42:26.449+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-29T02:42:26.478+0000] {logging_mixin.py:150} INFO - [2023-08-29T02:42:26.478+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_email_operator to 2023-08-01T08:00:00+00:00, run_after=2023-09-01T08:00:00+00:00
 [2023-08-29T02:42:26.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_email_operator.py took 0.126 seconds
+[2023-08-29T03:36:03.225+0000] {processor.py:157} INFO - Started process (PID=33) to work on /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:36:03.230+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_email_operator.py for tasks to queue
+[2023-08-29T03:36:03.231+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:36:03.231+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:36:03.293+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_email_operator']) retrieved from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:36:03.540+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:36:03.540+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:36:03.566+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:36:03.566+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_email_operator to 2023-08-01T08:00:00+00:00, run_after=2023-09-01T08:00:00+00:00
+[2023-08-29T03:36:03.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_email_operator.py took 0.387 seconds
+[2023-08-29T03:36:33.926+0000] {processor.py:157} INFO - Started process (PID=124) to work on /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:36:33.927+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_email_operator.py for tasks to queue
+[2023-08-29T03:36:33.928+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:36:33.928+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:36:33.956+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_email_operator']) retrieved from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:36:33.980+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:36:33.980+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:36:34.011+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:36:34.011+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_email_operator to 2023-08-01T08:00:00+00:00, run_after=2023-09-01T08:00:00+00:00
+[2023-08-29T03:36:34.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_email_operator.py took 0.125 seconds
+[2023-08-29T03:37:04.509+0000] {processor.py:157} INFO - Started process (PID=215) to work on /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:37:04.510+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_email_operator.py for tasks to queue
+[2023-08-29T03:37:04.511+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:04.511+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:37:04.544+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_email_operator']) retrieved from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:37:04.569+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:04.569+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:37:04.600+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:04.600+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_email_operator to 2023-08-01T08:00:00+00:00, run_after=2023-09-01T08:00:00+00:00
+[2023-08-29T03:37:04.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_email_operator.py took 0.134 seconds
+[2023-08-29T03:37:34.816+0000] {processor.py:157} INFO - Started process (PID=306) to work on /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:37:34.817+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_email_operator.py for tasks to queue
+[2023-08-29T03:37:34.818+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:34.818+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:37:34.859+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_email_operator']) retrieved from /opt/airflow/dags/dags_python_email_operator.py
+[2023-08-29T03:37:34.887+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:34.886+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:37:34.920+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:34.920+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_email_operator to 2023-08-01T08:00:00+00:00, run_after=2023-09-01T08:00:00+00:00
+[2023-08-29T03:37:34.981+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_email_operator.py took 0.168 seconds
