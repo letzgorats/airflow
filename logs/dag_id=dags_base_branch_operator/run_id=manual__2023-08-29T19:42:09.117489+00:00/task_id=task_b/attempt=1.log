@@ -1,0 +1,20 @@
+[2023-08-29T19:42:13.853+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b permission to 509
+[2023-08-29T19:42:13.854+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b'
+[2023-08-29T19:42:13.904+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b permission to 509
+[2023-08-29T19:42:13.905+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b'
+[2023-08-29T19:42:14.070+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_base_branch_operator.task_b manual__2023-08-29T19:42:09.117489+00:00 [queued]>
+[2023-08-29T19:42:14.082+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_base_branch_operator.task_b manual__2023-08-29T19:42:09.117489+00:00 [queued]>
+[2023-08-29T19:42:14.083+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-29T19:42:14.118+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): task_b> on 2023-08-29 19:42:09.117489+00:00
+[2023-08-29T19:42:14.123+0000] {standard_task_runner.py:57} INFO - Started process 80 to run task
+[2023-08-29T19:42:14.127+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_base_branch_operator', 'task_b', 'manual__2023-08-29T19:42:09.117489+00:00', '--job-id', '160', '--raw', '--subdir', 'DAGS_FOLDER/dags_base_branch_operator.py', '--cfg-path', '/tmp/tmpy2rd25ub']
+[2023-08-29T19:42:14.129+0000] {standard_task_runner.py:85} INFO - Job 160: Subtask task_b
+[2023-08-29T19:42:14.201+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b permission to 509
+[2023-08-29T19:42:14.202+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_base_branch_operator/run_id=manual__2023-08-29T19:42:09.117489+00:00/task_id=task_b'
+[2023-08-29T19:42:14.205+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_base_branch_operator.task_b manual__2023-08-29T19:42:09.117489+00:00 [running]> on host 07fcf706bef2
+[2023-08-29T19:42:14.346+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_base_branch_operator' AIRFLOW_CTX_TASK_ID='task_b' AIRFLOW_CTX_EXECUTION_DATE='2023-08-29T19:42:09.117489+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-29T19:42:09.117489+00:00'
+[2023-08-29T19:42:14.348+0000] {logging_mixin.py:150} INFO - B
+[2023-08-29T19:42:14.348+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-29T19:42:14.357+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_base_branch_operator, task_id=task_b, execution_date=20230829T194209, start_date=20230829T194214, end_date=20230829T194214
+[2023-08-29T19:42:14.419+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-29T19:42:14.452+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
