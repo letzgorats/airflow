@@ -1,6 +1,6 @@
 from airflow import DAG
 import pendulum
-import datetime
+from datetime import datetime
 from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 

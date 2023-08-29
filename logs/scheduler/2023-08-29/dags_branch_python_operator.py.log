@@ -110,3 +110,31 @@ Traceback (most recent call last):
 TypeError: 'module' object is not callable
 [2023-08-29T03:39:26.855+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_branch_python_operator.py
 [2023-08-29T03:39:26.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.081 seconds
+[2023-08-29T03:39:57.459+0000] {processor.py:157} INFO - Started process (PID=759) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T03:39:57.460+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T03:39:57.461+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:39:57.461+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T03:39:57.497+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:39:57.490+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_branch_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_branch_python_operator.py", line 9, in <module>
+    start_date = datetime(2023,8,1),
+TypeError: 'module' object is not callable
+[2023-08-29T03:39:57.500+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T03:39:57.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.089 seconds
+[2023-08-29T03:40:27.751+0000] {processor.py:157} INFO - Started process (PID=850) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T03:40:27.752+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T03:40:27.753+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:40:27.753+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T03:40:27.778+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:40:27.772+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_branch_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_branch_python_operator.py", line 9, in <module>
+    start_date = datetime(2023,8,1),
+TypeError: 'module' object is not callable
+[2023-08-29T03:40:27.780+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T03:40:27.817+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.069 seconds
