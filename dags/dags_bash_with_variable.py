@@ -15,7 +15,7 @@ with DAG(
     # 1안) Variable 라이브러리 이용
     bash_var_1 = BashOperator(
         task_id="bash_var_1",
-        bash_command=f"echo variable{var_value}"
+        bash_command=f"echo variable:{var_value}"
     )
 
     # 2안) Jinja template 사용
