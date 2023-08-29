@@ -1033,3 +1033,395 @@ airflow.exceptions.AirflowException: The trigger_rule must be one of {<TriggerRu
 [2023-08-29T22:32:32.069+0000] {logging_mixin.py:150} INFO - [2023-08-29T22:32:32.069+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-29T22:32:32.129+0000] {logging_mixin.py:150} INFO - [2023-08-29T22:32:32.129+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
 [2023-08-29T22:32:32.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.218 seconds
+[2023-08-29T23:18:04.634+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:18:04.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:18:04.637+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:18:04.637+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:18:04.673+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:18:04.908+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:18:04.908+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:18:04.934+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:18:04.934+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:18:04.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.343 seconds
+[2023-08-29T23:18:35.392+0000] {processor.py:157} INFO - Started process (PID=128) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:18:35.394+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:18:35.395+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:18:35.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:18:35.428+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:18:35.458+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:18:35.458+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:18:35.483+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:18:35.483+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:18:35.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.149 seconds
+[2023-08-29T23:19:06.293+0000] {processor.py:157} INFO - Started process (PID=224) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:19:06.294+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:19:06.296+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:19:06.296+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:19:06.327+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:19:06.364+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:19:06.363+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:19:06.404+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:19:06.404+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:19:06.473+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.185 seconds
+[2023-08-29T23:19:36.741+0000] {processor.py:157} INFO - Started process (PID=320) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:19:36.742+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:19:36.743+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:19:36.743+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:19:36.771+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:19:36.796+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:19:36.796+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:19:36.822+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:19:36.822+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:19:36.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.124 seconds
+[2023-08-29T23:20:07.021+0000] {processor.py:157} INFO - Started process (PID=416) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:20:07.022+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:20:07.024+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:20:07.023+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:20:07.054+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:20:07.080+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:20:07.079+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:20:07.107+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:20:07.107+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:20:07.151+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.132 seconds
+[2023-08-29T23:20:37.333+0000] {processor.py:157} INFO - Started process (PID=512) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:20:37.334+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:20:37.336+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:20:37.336+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:20:37.370+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:20:37.403+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:20:37.403+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:20:37.438+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:20:37.438+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:20:37.503+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.174 seconds
+[2023-08-29T23:21:07.620+0000] {processor.py:157} INFO - Started process (PID=609) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:21:07.621+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:21:07.622+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:21:07.622+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:21:07.648+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:21:07.672+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:21:07.672+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:21:07.698+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:21:07.698+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:21:07.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.170 seconds
+[2023-08-29T23:21:38.147+0000] {processor.py:157} INFO - Started process (PID=705) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:21:38.148+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:21:38.150+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:21:38.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:21:38.185+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:21:38.214+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:21:38.214+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:21:38.255+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:21:38.255+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:21:38.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.162 seconds
+[2023-08-29T23:22:08.391+0000] {processor.py:157} INFO - Started process (PID=801) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:22:08.392+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:22:08.393+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:22:08.393+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:22:08.419+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:22:08.441+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:22:08.441+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:22:08.468+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:22:08.468+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:22:08.521+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.133 seconds
+[2023-08-29T23:22:38.782+0000] {processor.py:157} INFO - Started process (PID=897) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:22:38.783+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:22:38.784+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:22:38.784+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:22:38.812+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:22:38.837+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:22:38.836+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:22:38.863+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:22:38.862+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:22:38.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.135 seconds
+[2023-08-29T23:23:09.378+0000] {processor.py:157} INFO - Started process (PID=993) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:23:09.379+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:23:09.380+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:23:09.380+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:23:09.411+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:23:09.437+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:23:09.437+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:23:09.462+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:23:09.462+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:23:09.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.141 seconds
+[2023-08-29T23:23:40.083+0000] {processor.py:157} INFO - Started process (PID=1089) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:23:40.084+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:23:40.085+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:23:40.085+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:23:40.112+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:23:40.135+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:23:40.135+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:23:40.161+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:23:40.161+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:23:40.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.134 seconds
+[2023-08-29T23:24:10.778+0000] {processor.py:157} INFO - Started process (PID=1197) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:24:10.780+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:24:10.782+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:24:10.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:24:10.818+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:24:10.846+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:24:10.846+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:24:10.882+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:24:10.881+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:24:10.927+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.152 seconds
+[2023-08-29T23:24:41.190+0000] {processor.py:157} INFO - Started process (PID=1293) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:24:41.191+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:24:41.192+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:24:41.192+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:24:41.219+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:24:41.243+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:24:41.243+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:24:41.269+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:24:41.269+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:24:41.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.172 seconds
+[2023-08-29T23:25:11.661+0000] {processor.py:157} INFO - Started process (PID=1389) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:25:11.663+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:25:11.664+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:25:11.664+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:25:11.696+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:25:11.722+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:25:11.722+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:25:11.755+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:25:11.755+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:25:11.847+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.189 seconds
+[2023-08-29T23:25:42.081+0000] {processor.py:157} INFO - Started process (PID=1485) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:25:42.082+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:25:42.084+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:25:42.083+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:25:42.110+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:25:42.132+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:25:42.131+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:25:42.157+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:25:42.157+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:25:42.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.134 seconds
+[2023-08-29T23:26:12.551+0000] {processor.py:157} INFO - Started process (PID=1581) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:26:12.552+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:26:12.554+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:26:12.553+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:26:12.581+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:26:12.605+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:26:12.604+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:26:12.630+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:26:12.630+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:26:12.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.133 seconds
+[2023-08-29T23:26:43.161+0000] {processor.py:157} INFO - Started process (PID=1677) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:26:43.162+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:26:43.164+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:26:43.163+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:26:43.191+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:26:43.219+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:26:43.219+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:26:43.244+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:26:43.244+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:26:43.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.124 seconds
+[2023-08-29T23:27:13.487+0000] {processor.py:157} INFO - Started process (PID=1773) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:27:13.488+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:27:13.489+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:27:13.489+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:27:13.516+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:27:13.543+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:27:13.543+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:27:13.570+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:27:13.570+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:27:13.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.130 seconds
+[2023-08-29T23:27:43.926+0000] {processor.py:157} INFO - Started process (PID=1869) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:27:43.930+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:27:43.934+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:27:43.933+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:27:43.993+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:27:44.030+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:27:44.030+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:27:44.055+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:27:44.055+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:27:44.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.176 seconds
+[2023-08-29T23:28:15.135+0000] {processor.py:157} INFO - Started process (PID=1966) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:28:15.137+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:28:15.139+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:28:15.139+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:28:15.174+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:28:15.199+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:28:15.199+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:28:15.227+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:28:15.227+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:28:15.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.138 seconds
+[2023-08-29T23:28:45.407+0000] {processor.py:157} INFO - Started process (PID=2062) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:28:45.409+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:28:45.410+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:28:45.410+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:28:45.441+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:28:45.466+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:28:45.466+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:28:45.500+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:28:45.500+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:28:45.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.194 seconds
+[2023-08-29T23:29:15.899+0000] {processor.py:157} INFO - Started process (PID=2158) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:29:15.900+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:29:15.901+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:29:15.901+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:29:15.928+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:29:15.951+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:29:15.951+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:29:15.976+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:29:15.976+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:29:16.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.118 seconds
+[2023-08-29T23:29:46.247+0000] {processor.py:157} INFO - Started process (PID=2254) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:29:46.248+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:29:46.249+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:29:46.249+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:29:46.283+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:29:46.309+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:29:46.309+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:29:46.336+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:29:46.336+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:29:46.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.130 seconds
+[2023-08-29T23:30:16.584+0000] {processor.py:157} INFO - Started process (PID=2350) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:30:16.586+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:30:16.588+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:30:16.587+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:30:16.635+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:30:16.673+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:30:16.673+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:30:16.704+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:30:16.704+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:30:16.745+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.167 seconds
+[2023-08-29T23:30:46.982+0000] {processor.py:157} INFO - Started process (PID=2446) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:30:46.984+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:30:46.985+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:30:46.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:30:47.014+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:30:47.037+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:30:47.037+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:30:47.062+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:30:47.062+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:30:47.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.200 seconds
+[2023-08-29T23:31:17.266+0000] {processor.py:157} INFO - Started process (PID=2542) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:31:17.267+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:31:17.268+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:31:17.268+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:31:17.335+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:31:17.392+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:31:17.391+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:31:17.434+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:31:17.434+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:31:17.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.226 seconds
+[2023-08-29T23:31:48.044+0000] {processor.py:157} INFO - Started process (PID=2638) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:31:48.045+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:31:48.046+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:31:48.046+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:31:48.074+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:31:48.100+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:31:48.100+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:31:48.127+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:31:48.126+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:31:48.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.125 seconds
+[2023-08-29T23:32:18.405+0000] {processor.py:157} INFO - Started process (PID=2734) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:32:18.407+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:32:18.408+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:32:18.408+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:32:18.442+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:32:18.472+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:32:18.472+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:32:18.500+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:32:18.500+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:32:18.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.139 seconds
+[2023-08-29T23:32:48.994+0000] {processor.py:157} INFO - Started process (PID=2830) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:32:48.996+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:32:48.997+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:32:48.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:32:49.028+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:32:49.052+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:32:49.052+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:32:49.078+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:32:49.077+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:32:49.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.126 seconds
+[2023-08-29T23:33:19.673+0000] {processor.py:157} INFO - Started process (PID=2926) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:33:19.674+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:33:19.675+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:33:19.675+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:33:19.702+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:33:19.726+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:33:19.726+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:33:19.752+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:33:19.752+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:33:19.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.120 seconds
+[2023-08-29T23:33:49.859+0000] {processor.py:157} INFO - Started process (PID=3023) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:33:49.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:33:49.862+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:33:49.861+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:33:49.897+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:33:49.923+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:33:49.923+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:33:49.952+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:33:49.952+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:33:49.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.135 seconds
+[2023-08-29T23:34:20.191+0000] {processor.py:157} INFO - Started process (PID=3119) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:34:20.193+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:34:20.194+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:34:20.194+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:34:20.221+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:34:20.246+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:34:20.246+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:34:20.274+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:34:20.273+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:34:20.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.127 seconds
+[2023-08-29T23:34:50.622+0000] {processor.py:157} INFO - Started process (PID=3215) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:34:50.623+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:34:50.624+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:34:50.624+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:34:50.651+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:34:50.677+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:34:50.677+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:34:50.703+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:34:50.703+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:34:50.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.137 seconds
+[2023-08-29T23:35:21.384+0000] {processor.py:157} INFO - Started process (PID=3311) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:35:21.385+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:35:21.386+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:35:21.385+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:35:21.416+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:35:21.440+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:35:21.440+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:35:21.465+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:35:21.464+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:35:21.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.139 seconds
+[2023-08-29T23:35:51.616+0000] {processor.py:157} INFO - Started process (PID=3407) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:35:51.617+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:35:51.618+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:35:51.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:35:51.647+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:35:51.672+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:35:51.672+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:35:51.700+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:35:51.700+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:35:51.758+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.145 seconds
+[2023-08-29T23:36:22.350+0000] {processor.py:157} INFO - Started process (PID=3503) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:36:22.351+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:36:22.352+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:36:22.352+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:36:22.383+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:36:22.408+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:36:22.408+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:36:22.438+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:36:22.437+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:36:22.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.145 seconds
+[2023-08-29T23:36:52.917+0000] {processor.py:157} INFO - Started process (PID=3599) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:36:52.919+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:36:52.920+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:36:52.920+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:36:52.948+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:36:52.972+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:36:52.972+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:36:52.997+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:36:52.997+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:36:53.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.138 seconds
+[2023-08-29T23:37:23.575+0000] {processor.py:157} INFO - Started process (PID=3696) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:37:23.576+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:37:23.578+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:37:23.577+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:37:23.607+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:37:23.632+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:37:23.632+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:37:23.658+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:37:23.658+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:37:23.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.142 seconds
+[2023-08-29T23:37:54.346+0000] {processor.py:157} INFO - Started process (PID=3792) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:37:54.347+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:37:54.349+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:37:54.348+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:37:54.380+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:37:54.409+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:37:54.409+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:37:54.435+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:37:54.435+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:37:54.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.150 seconds
+[2023-08-29T23:38:24.932+0000] {processor.py:157} INFO - Started process (PID=3888) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:38:24.934+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:38:24.935+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:38:24.935+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:38:24.963+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:38:24.987+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:38:24.987+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:38:25.016+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:38:25.015+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:38:25.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.140 seconds
+[2023-08-29T23:38:55.285+0000] {processor.py:157} INFO - Started process (PID=3984) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:38:55.286+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:38:55.287+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:38:55.287+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:38:55.316+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:38:55.339+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:38:55.339+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:38:55.364+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:38:55.364+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:38:55.417+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.136 seconds
+[2023-08-29T23:39:25.784+0000] {processor.py:157} INFO - Started process (PID=4080) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:39:25.785+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:39:25.786+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:39:25.786+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:39:25.817+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:39:25.848+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:39:25.847+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:39:25.875+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:39:25.875+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:39:25.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.150 seconds
+[2023-08-29T23:39:56.135+0000] {processor.py:157} INFO - Started process (PID=4176) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:39:56.136+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:39:56.137+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:39:56.137+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:39:56.167+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:39:56.191+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:39:56.191+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:39:56.215+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:39:56.215+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:39:56.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.137 seconds
+[2023-08-29T23:40:26.635+0000] {processor.py:157} INFO - Started process (PID=4272) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:40:26.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:40:26.637+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:40:26.637+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:40:26.663+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:40:26.685+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:40:26.684+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:40:26.711+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:40:26.711+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:40:26.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.133 seconds
+[2023-08-29T23:40:57.222+0000] {processor.py:157} INFO - Started process (PID=4368) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:40:57.223+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:40:57.224+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:40:57.224+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:40:57.252+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:40:57.279+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:40:57.279+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:40:57.308+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:40:57.308+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:40:57.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.141 seconds
+[2023-08-29T23:41:27.913+0000] {processor.py:157} INFO - Started process (PID=4464) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:41:27.914+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:41:27.915+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:41:27.915+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:41:27.941+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:41:27.964+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:41:27.964+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:41:27.987+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:41:27.987+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:41:28.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.138 seconds
+[2023-08-29T23:41:58.786+0000] {processor.py:157} INFO - Started process (PID=4560) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:41:58.787+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:41:58.788+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:41:58.788+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:41:58.818+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:41:58.841+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:41:58.841+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:41:58.871+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:41:58.871+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:41:58.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.139 seconds
+[2023-08-29T23:42:29.489+0000] {processor.py:157} INFO - Started process (PID=4656) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:42:29.490+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:42:29.491+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:42:29.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:42:29.519+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:42:29.543+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:42:29.543+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:42:29.568+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:42:29.568+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:42:29.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.140 seconds
+[2023-08-29T23:42:59.905+0000] {processor.py:157} INFO - Started process (PID=4752) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:42:59.906+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:42:59.907+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:42:59.907+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:42:59.933+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:42:59.958+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:42:59.957+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:42:59.982+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:42:59.982+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:43:00.019+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.118 seconds
+[2023-08-29T23:43:30.362+0000] {processor.py:157} INFO - Started process (PID=4848) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:43:30.363+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:43:30.364+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:43:30.364+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:43:30.392+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:43:30.416+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:43:30.416+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:43:30.442+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:43:30.442+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:43:30.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.122 seconds
+[2023-08-29T23:44:00.824+0000] {processor.py:157} INFO - Started process (PID=4944) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:44:00.826+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:44:00.827+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:44:00.827+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:44:00.859+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:44:00.968+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:44:00.967+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:44:00.998+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:44:00.998+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:44:01.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.237 seconds
+[2023-08-29T23:44:31.186+0000] {processor.py:157} INFO - Started process (PID=5039) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:44:31.187+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:44:31.188+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:44:31.188+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:44:31.230+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:44:31.254+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:44:31.254+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:44:31.280+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:44:31.280+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:44:31.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.164 seconds
+[2023-08-29T23:45:01.760+0000] {processor.py:157} INFO - Started process (PID=5136) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:45:01.762+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:45:01.763+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:45:01.762+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:45:01.789+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:45:01.814+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:45:01.814+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:45:01.843+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:45:01.842+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:45:01.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.147 seconds
+[2023-08-29T23:45:32.198+0000] {processor.py:157} INFO - Started process (PID=5232) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:45:32.199+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:45:32.200+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:45:32.200+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:45:32.229+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:45:32.270+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:45:32.269+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:45:32.296+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:45:32.296+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:45:32.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.142 seconds
+[2023-08-29T23:46:02.648+0000] {processor.py:157} INFO - Started process (PID=5328) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:46:02.649+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T23:46:02.650+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:46:02.650+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:46:02.675+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_trigger_rule_eg2']) retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T23:46:02.699+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:46:02.698+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T23:46:02.728+0000] {logging_mixin.py:150} INFO - [2023-08-29T23:46:02.728+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_trigger_rule_eg2 to None, run_after=None
+[2023-08-29T23:46:02.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.140 seconds
