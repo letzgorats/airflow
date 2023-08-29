@@ -1,0 +1,64 @@
+[2023-08-29T22:03:32.670+0000] {processor.py:157} INFO - Started process (PID=24040) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T22:03:32.672+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T22:03:32.674+0000] {logging_mixin.py:150} INFO - [2023-08-29T22:03:32.673+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T22:03:32.725+0000] {logging_mixin.py:150} INFO - [2023-08-29T22:03:32.717+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_trigger_rule_eg2.py", line 44, in <module>
+    random_branch() >> [task_a, task_b(), task_c()] >> task_d()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 345, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 54, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 212, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 864, in __init__
+    f"The trigger_rule must be one of {TriggerRule.all_triggers()},"
+airflow.exceptions.AirflowException: The trigger_rule must be one of {<TriggerRule.ALL_DONE: 'all_done'>, <TriggerRule.ALL_FAILED: 'all_failed'>, <TriggerRule.ALL_SKIPPED: 'all_skipped'>, <TriggerRule.ONE_SUCCESS: 'one_success'>, <TriggerRule.NONE_FAILED_MIN_ONE_SUCCESS: 'none_failed_min_one_success'>, <TriggerRule.ONE_FAILED: 'one_failed'>, <TriggerRule.NONE_FAILED: 'none_failed'>, <TriggerRule.NONE_FAILED_OR_SKIPPED: 'none_failed_or_skipped'>, <TriggerRule.DUMMY: 'dummy'>, <TriggerRule.NONE_SKIPPED: 'none_skipped'>, <TriggerRule.ALL_SUCCESS: 'all_success'>, <TriggerRule.ONE_DONE: 'one_done'>, <TriggerRule.ALWAYS: 'always'>},'dags_python_with_trigger_rule_eg2.task_d'; received 'non_skipped'.
+[2023-08-29T22:03:32.726+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T22:03:32.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.095 seconds
+[2023-08-29T22:04:03.036+0000] {processor.py:157} INFO - Started process (PID=24135) to work on /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T22:04:03.038+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py for tasks to queue
+[2023-08-29T22:04:03.039+0000] {logging_mixin.py:150} INFO - [2023-08-29T22:04:03.039+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T22:04:03.082+0000] {logging_mixin.py:150} INFO - [2023-08-29T22:04:03.074+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_trigger_rule_eg2.py", line 44, in <module>
+    random_branch() >> [task_a, task_b(), task_c()] >> task_d()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 345, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 54, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 212, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 864, in __init__
+    f"The trigger_rule must be one of {TriggerRule.all_triggers()},"
+airflow.exceptions.AirflowException: The trigger_rule must be one of {<TriggerRule.ALL_DONE: 'all_done'>, <TriggerRule.ALL_FAILED: 'all_failed'>, <TriggerRule.ALL_SKIPPED: 'all_skipped'>, <TriggerRule.ONE_SUCCESS: 'one_success'>, <TriggerRule.NONE_FAILED_MIN_ONE_SUCCESS: 'none_failed_min_one_success'>, <TriggerRule.ONE_FAILED: 'one_failed'>, <TriggerRule.NONE_FAILED: 'none_failed'>, <TriggerRule.NONE_FAILED_OR_SKIPPED: 'none_failed_or_skipped'>, <TriggerRule.DUMMY: 'dummy'>, <TriggerRule.NONE_SKIPPED: 'none_skipped'>, <TriggerRule.ALL_SUCCESS: 'all_success'>, <TriggerRule.ONE_DONE: 'one_done'>, <TriggerRule.ALWAYS: 'always'>},'dags_python_with_trigger_rule_eg2.task_d'; received 'non_skipped'.
+[2023-08-29T22:04:03.083+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py
+[2023-08-29T22:04:03.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_trigger_rule_eg2.py took 0.096 seconds
