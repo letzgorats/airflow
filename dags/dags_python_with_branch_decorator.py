@@ -4,7 +4,7 @@ from airflow.operators.python import PythonOperator
 from airflow.decorators import task
 
 with DAG(
-    dag_id = "dags_python_with_branch_decorator",
+    dag_id="dags_python_with_branch_decorator",
     start_date=datetime(2023,8,1),
     schedule=None,
     catchup=False
@@ -38,4 +38,4 @@ with DAG(
         op_kwargs={'selected':'C'}
     )
 
-    select_random() >> ['task_a','task_b','task_c']
+    select_random() >> [task_a,task_b,task_c]
