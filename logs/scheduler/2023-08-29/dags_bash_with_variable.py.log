@@ -986,3 +986,24 @@ SyntaxError: invalid syntax
 [2023-08-29T03:37:34.880+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:34.879+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-29T03:37:34.915+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:37:34.915+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_bash_with_variable to 2023-08-28T09:10:00+00:00, run_after=2023-08-29T09:10:00+00:00
 [2023-08-29T03:37:34.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_bash_with_variable.py took 0.159 seconds
+[2023-08-29T03:38:05.587+0000] {processor.py:157} INFO - Started process (PID=396) to work on /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:38:05.589+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_bash_with_variable.py for tasks to queue
+[2023-08-29T03:38:05.590+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:38:05.590+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:38:05.633+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_bash_with_variable']) retrieved from /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:38:05.647+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:38:05.647+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:38:05.676+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:38:05.676+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_bash_with_variable to 2023-08-28T09:10:00+00:00, run_after=2023-08-29T09:10:00+00:00
+[2023-08-29T03:38:05.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_bash_with_variable.py took 0.133 seconds
+[2023-08-29T03:38:36.244+0000] {processor.py:157} INFO - Started process (PID=487) to work on /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:38:36.245+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_bash_with_variable.py for tasks to queue
+[2023-08-29T03:38:36.247+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:38:36.246+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:38:36.299+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_bash_with_variable']) retrieved from /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:38:36.317+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:38:36.317+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:38:36.352+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:38:36.352+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_bash_with_variable to 2023-08-28T09:10:00+00:00, run_after=2023-08-29T09:10:00+00:00
+[2023-08-29T03:38:36.396+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_bash_with_variable.py took 0.156 seconds
+[2023-08-29T03:39:07.058+0000] {processor.py:157} INFO - Started process (PID=578) to work on /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:39:07.059+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_bash_with_variable.py for tasks to queue
+[2023-08-29T03:39:07.060+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:39:07.060+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:39:07.109+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_bash_with_variable']) retrieved from /opt/airflow/dags/dags_bash_with_variable.py
+[2023-08-29T03:39:07.130+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:39:07.130+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T03:39:07.163+0000] {logging_mixin.py:150} INFO - [2023-08-29T03:39:07.163+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_bash_with_variable to 2023-08-28T09:10:00+00:00, run_after=2023-08-29T09:10:00+00:00
+[2023-08-29T03:39:07.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_bash_with_variable.py took 0.167 seconds
