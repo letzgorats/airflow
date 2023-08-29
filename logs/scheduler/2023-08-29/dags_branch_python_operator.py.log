@@ -5477,3 +5477,45 @@ TypeError: 'module' object is not callable
 [2023-08-29T19:32:24.451+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:32:24.451+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-29T19:32:24.486+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:32:24.486+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
 [2023-08-29T19:32:24.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.263 seconds
+[2023-08-29T19:32:54.819+0000] {processor.py:157} INFO - Started process (PID=4744) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:32:54.820+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T19:32:54.821+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:32:54.821+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:32:54.853+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_branch_python_operator']) retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:32:54.876+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:32:54.876+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T19:32:54.905+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:32:54.905+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
+[2023-08-29T19:32:54.981+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.166 seconds
+[2023-08-29T19:33:25.396+0000] {processor.py:157} INFO - Started process (PID=4837) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:33:25.397+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T19:33:25.398+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:33:25.398+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:33:25.426+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_branch_python_operator']) retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:33:25.447+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:33:25.447+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T19:33:25.472+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:33:25.472+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
+[2023-08-29T19:33:25.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.157 seconds
+[2023-08-29T19:33:55.690+0000] {processor.py:157} INFO - Started process (PID=4930) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:33:55.692+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T19:33:55.693+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:33:55.693+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:33:55.727+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_branch_python_operator']) retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:33:55.755+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:33:55.754+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T19:33:55.785+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:33:55.784+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
+[2023-08-29T19:33:55.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.144 seconds
+[2023-08-29T19:34:26.164+0000] {processor.py:157} INFO - Started process (PID=5023) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:34:26.167+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T19:34:26.168+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:34:26.168+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:34:26.206+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_branch_python_operator']) retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:34:26.233+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:34:26.233+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T19:34:26.263+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:34:26.263+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
+[2023-08-29T19:34:26.326+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.165 seconds
+[2023-08-29T19:34:56.720+0000] {processor.py:157} INFO - Started process (PID=5116) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:34:56.722+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T19:34:56.724+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:34:56.723+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:34:56.755+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_branch_python_operator']) retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:34:56.780+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:34:56.779+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T19:34:56.814+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:34:56.813+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
+[2023-08-29T19:34:56.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.152 seconds
+[2023-08-29T19:35:26.993+0000] {processor.py:157} INFO - Started process (PID=5209) to work on /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:35:26.994+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_branch_python_operator.py for tasks to queue
+[2023-08-29T19:35:26.995+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:35:26.995+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:35:27.023+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_branch_python_operator']) retrieved from /opt/airflow/dags/dags_branch_python_operator.py
+[2023-08-29T19:35:27.047+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:35:27.047+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-29T19:35:27.071+0000] {logging_mixin.py:150} INFO - [2023-08-29T19:35:27.071+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_branch_python_operator to None, run_after=None
+[2023-08-29T19:35:27.132+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_branch_python_operator.py took 0.142 seconds
