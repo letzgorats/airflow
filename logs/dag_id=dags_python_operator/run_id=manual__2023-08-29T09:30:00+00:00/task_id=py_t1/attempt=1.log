@@ -1,0 +1,20 @@
+[2023-08-30T23:38:31.696+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1 permission to 509
+[2023-08-30T23:38:31.697+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1'
+[2023-08-30T23:38:31.740+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1 permission to 509
+[2023-08-30T23:38:31.740+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1'
+[2023-08-30T23:38:31.872+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_python_operator.py_t1 manual__2023-08-29T09:30:00+00:00 [queued]>
+[2023-08-30T23:38:31.881+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_python_operator.py_t1 manual__2023-08-29T09:30:00+00:00 [queued]>
+[2023-08-30T23:38:31.882+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-30T23:38:31.915+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): py_t1> on 2023-08-29 09:30:00+00:00
+[2023-08-30T23:38:31.919+0000] {standard_task_runner.py:57} INFO - Started process 3124 to run task
+[2023-08-30T23:38:31.923+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_python_operator', 'py_t1', 'manual__2023-08-29T09:30:00+00:00', '--job-id', '200', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_operator.py', '--cfg-path', '/tmp/tmpoxom062k']
+[2023-08-30T23:38:31.925+0000] {standard_task_runner.py:85} INFO - Job 200: Subtask py_t1
+[2023-08-30T23:38:32.003+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1 permission to 509
+[2023-08-30T23:38:32.004+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_operator/run_id=manual__2023-08-29T09:30:00+00:00/task_id=py_t1'
+[2023-08-30T23:38:32.007+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_python_operator.py_t1 manual__2023-08-29T09:30:00+00:00 [running]> on host 07fcf706bef2
+[2023-08-30T23:38:32.220+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_python_operator' AIRFLOW_CTX_TASK_ID='py_t1' AIRFLOW_CTX_EXECUTION_DATE='2023-08-29T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-29T09:30:00+00:00'
+[2023-08-30T23:38:32.223+0000] {logging_mixin.py:150} INFO - Dashhund
+[2023-08-30T23:38:32.225+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-30T23:38:32.245+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_python_operator, task_id=py_t1, execution_date=20230829T093000, start_date=20230830T233831, end_date=20230830T233832
+[2023-08-30T23:38:32.375+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-30T23:38:32.391+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

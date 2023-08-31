@@ -2322,3 +2322,346 @@
 [2023-08-30T23:34:32.982+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:34:32.982+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-30T23:34:33.009+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:34:33.009+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
 [2023-08-30T23:34:33.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.163 seconds
+[2023-08-30T23:35:03.906+0000] {processor.py:157} INFO - Started process (PID=32243) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:35:03.907+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:35:03.908+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:35:03.908+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:35:03.932+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:35:03.956+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:35:03.955+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:35:03.983+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:35:03.983+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:35:04.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.118 seconds
+[2023-08-30T23:35:34.793+0000] {processor.py:157} INFO - Started process (PID=32341) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:35:34.794+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:35:34.795+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:35:34.795+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:35:34.822+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:35:34.847+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:35:34.847+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:35:34.873+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:35:34.873+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:35:34.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.124 seconds
+[2023-08-30T23:36:05.087+0000] {processor.py:157} INFO - Started process (PID=32439) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:36:05.088+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:36:05.089+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:36:05.089+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:36:05.118+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:36:05.141+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:36:05.141+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:36:05.165+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:36:05.165+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:36:05.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.119 seconds
+[2023-08-30T23:36:35.918+0000] {processor.py:157} INFO - Started process (PID=32537) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:36:35.919+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:36:35.920+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:36:35.920+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:36:35.949+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:36:35.978+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:36:35.978+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:36:36.010+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:36:36.009+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:36:36.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.135 seconds
+[2023-08-30T23:37:06.619+0000] {processor.py:157} INFO - Started process (PID=32635) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:37:06.621+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:37:06.622+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:37:06.622+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:37:06.653+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:37:06.682+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:37:06.681+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:37:06.715+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:37:06.715+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:37:06.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.159 seconds
+[2023-08-30T23:37:37.309+0000] {processor.py:157} INFO - Started process (PID=32733) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:37:37.311+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:37:37.312+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:37:37.312+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:37:37.342+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:37:37.366+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:37:37.366+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:37:37.389+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:37:37.389+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:37:37.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.120 seconds
+[2023-08-30T23:38:07.855+0000] {processor.py:157} INFO - Started process (PID=363) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:38:07.856+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:38:07.858+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:38:07.858+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:38:07.887+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:38:07.911+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:38:07.911+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:38:07.936+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:38:07.936+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:38:07.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.122 seconds
+[2023-08-30T23:38:38.751+0000] {processor.py:157} INFO - Started process (PID=461) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:38:38.752+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:38:38.753+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:38:38.752+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:38:38.777+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:38:38.802+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:38:38.802+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:38:38.827+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:38:38.827+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:38:38.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.115 seconds
+[2023-08-30T23:39:09.203+0000] {processor.py:157} INFO - Started process (PID=559) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:39:09.203+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:39:09.205+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:39:09.205+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:39:09.234+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:39:09.259+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:39:09.259+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:39:09.287+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:39:09.287+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:39:09.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.131 seconds
+[2023-08-30T23:39:39.779+0000] {processor.py:157} INFO - Started process (PID=657) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:39:39.780+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:39:39.782+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:39:39.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:39:39.814+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:39:39.844+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:39:39.843+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:39:39.871+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:39:39.871+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:39:39.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.135 seconds
+[2023-08-30T23:40:10.781+0000] {processor.py:157} INFO - Started process (PID=755) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:40:10.782+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:40:10.784+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:40:10.783+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:40:10.814+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:40:10.839+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:40:10.839+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:40:10.866+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:40:10.866+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:40:10.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.128 seconds
+[2023-08-30T23:40:41.525+0000] {processor.py:157} INFO - Started process (PID=853) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:40:41.527+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:40:41.528+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:40:41.528+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:40:41.561+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:40:41.591+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:40:41.591+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:40:41.616+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:40:41.616+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:40:41.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.136 seconds
+[2023-08-30T23:41:12.190+0000] {processor.py:157} INFO - Started process (PID=951) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:41:12.191+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:41:12.192+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:41:12.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:41:12.217+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:41:12.238+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:41:12.238+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:41:12.263+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:41:12.263+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:41:12.298+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.111 seconds
+[2023-08-30T23:41:43.021+0000] {processor.py:157} INFO - Started process (PID=1049) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:41:43.022+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:41:43.024+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:41:43.023+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:41:43.054+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:41:43.078+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:41:43.078+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:41:43.105+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:41:43.105+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:41:43.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.125 seconds
+[2023-08-30T23:42:13.604+0000] {processor.py:157} INFO - Started process (PID=1147) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:42:13.605+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:42:13.607+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:42:13.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:42:13.634+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:42:13.659+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:42:13.659+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:42:13.686+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:42:13.686+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:42:13.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.146 seconds
+[2023-08-30T23:42:44.644+0000] {processor.py:157} INFO - Started process (PID=1245) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:42:44.645+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:42:44.647+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:42:44.646+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:42:44.677+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:42:44.703+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:42:44.703+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:42:44.727+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:42:44.727+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:42:44.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.122 seconds
+[2023-08-30T23:43:15.474+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:43:15.475+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:43:15.476+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:43:15.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:43:15.499+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:43:15.521+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:43:15.520+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:43:15.544+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:43:15.544+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:43:15.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.115 seconds
+[2023-08-30T23:43:46.056+0000] {processor.py:157} INFO - Started process (PID=1441) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:43:46.057+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:43:46.058+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:43:46.058+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:43:46.083+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:43:46.107+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:43:46.107+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:43:46.131+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:43:46.131+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:43:46.170+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.117 seconds
+[2023-08-30T23:44:16.859+0000] {processor.py:157} INFO - Started process (PID=1538) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:44:16.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:44:16.861+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:44:16.861+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:44:16.893+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:44:16.915+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:44:16.915+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:44:16.940+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:44:16.940+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:44:16.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.137 seconds
+[2023-08-30T23:44:47.386+0000] {processor.py:157} INFO - Started process (PID=1636) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:44:47.387+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:44:47.388+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:44:47.388+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:44:47.416+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:44:47.444+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:44:47.443+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:44:47.472+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:44:47.471+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:44:47.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.127 seconds
+[2023-08-30T23:45:18.439+0000] {processor.py:157} INFO - Started process (PID=1734) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:45:18.440+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:45:18.441+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:45:18.441+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:45:18.465+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:45:18.490+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:45:18.490+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:45:18.520+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:45:18.520+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:45:18.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.125 seconds
+[2023-08-30T23:45:49.270+0000] {processor.py:157} INFO - Started process (PID=1839) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:45:49.271+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:45:49.272+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:45:49.272+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:45:49.300+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:45:49.323+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:45:49.323+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:45:49.347+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:45:49.347+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:45:49.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.120 seconds
+[2023-08-30T23:46:20.125+0000] {processor.py:157} INFO - Started process (PID=1937) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:46:20.126+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:46:20.127+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:46:20.127+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:46:20.154+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:46:20.177+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:46:20.177+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:46:20.201+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:46:20.201+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:46:20.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.116 seconds
+[2023-08-30T23:46:50.488+0000] {processor.py:157} INFO - Started process (PID=2035) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:46:50.488+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:46:50.490+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:46:50.489+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:46:50.515+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:46:50.538+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:46:50.538+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:46:50.562+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:46:50.562+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:46:50.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.114 seconds
+[2023-08-30T23:47:20.795+0000] {processor.py:157} INFO - Started process (PID=2132) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:47:20.796+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:47:20.797+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:47:20.796+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:47:20.824+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:47:20.850+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:47:20.850+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:47:20.878+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:47:20.878+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:47:20.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.165 seconds
+[2023-08-30T23:47:51.067+0000] {processor.py:157} INFO - Started process (PID=2230) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:47:51.068+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:47:51.069+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:47:51.069+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:47:51.097+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:47:51.121+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:47:51.121+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:47:51.145+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:47:51.144+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:47:51.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.118 seconds
+[2023-08-30T23:48:21.280+0000] {processor.py:157} INFO - Started process (PID=2328) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:48:21.281+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:48:21.282+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:48:21.282+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:48:21.320+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:48:21.348+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:48:21.348+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:48:21.372+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:48:21.372+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:48:21.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.131 seconds
+[2023-08-30T23:48:51.555+0000] {processor.py:157} INFO - Started process (PID=2426) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:48:51.556+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:48:51.557+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:48:51.557+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:48:51.584+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:48:51.608+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:48:51.608+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:48:51.633+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:48:51.632+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:48:51.670+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.118 seconds
+[2023-08-30T23:49:22.219+0000] {processor.py:157} INFO - Started process (PID=2524) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:49:22.220+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:49:22.220+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:49:22.220+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:49:22.246+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:49:22.269+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:49:22.269+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:49:22.293+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:49:22.293+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:49:22.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.203 seconds
+[2023-08-30T23:49:52.601+0000] {processor.py:157} INFO - Started process (PID=2622) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:49:52.603+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:49:52.604+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:49:52.604+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:49:52.639+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:49:52.665+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:49:52.664+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:49:52.693+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:49:52.693+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:49:52.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.145 seconds
+[2023-08-30T23:50:23.403+0000] {processor.py:157} INFO - Started process (PID=2721) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:50:23.404+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:50:23.405+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:50:23.405+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:50:23.427+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:50:23.449+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:50:23.448+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:50:23.472+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:50:23.472+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:50:23.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.107 seconds
+[2023-08-30T23:50:53.639+0000] {processor.py:157} INFO - Started process (PID=2819) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:50:53.640+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:50:53.642+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:50:53.642+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:50:53.667+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:50:53.692+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:50:53.692+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:50:53.718+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:50:53.718+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:50:53.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.121 seconds
+[2023-08-30T23:51:23.953+0000] {processor.py:157} INFO - Started process (PID=2917) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:51:23.954+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:51:23.956+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:51:23.956+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:51:23.980+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:51:24.003+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:51:24.003+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:51:24.104+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:51:24.104+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:51:24.141+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.191 seconds
+[2023-08-30T23:51:54.296+0000] {processor.py:157} INFO - Started process (PID=3015) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:51:54.297+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:51:54.298+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:51:54.298+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:51:54.320+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:51:54.341+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:51:54.341+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:51:54.365+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:51:54.365+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:51:54.478+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.185 seconds
+[2023-08-30T23:52:25.473+0000] {processor.py:157} INFO - Started process (PID=3113) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:52:25.474+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:52:25.475+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:52:25.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:52:25.499+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:52:25.523+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:52:25.523+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:52:25.553+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:52:25.553+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:52:25.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.120 seconds
+[2023-08-30T23:52:55.756+0000] {processor.py:157} INFO - Started process (PID=3211) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:52:55.757+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:52:55.758+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:52:55.757+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:52:55.783+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:52:55.882+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:52:55.882+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:52:55.906+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:52:55.906+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:52:55.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.188 seconds
+[2023-08-30T23:53:26.830+0000] {processor.py:157} INFO - Started process (PID=3309) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:53:26.831+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:53:26.832+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:53:26.832+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:53:26.864+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:53:26.890+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:53:26.889+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:53:26.991+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:53:26.991+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:53:27.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.201 seconds
+[2023-08-30T23:53:57.162+0000] {processor.py:157} INFO - Started process (PID=3407) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:53:57.163+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:53:57.164+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:53:57.163+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:53:57.188+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:53:57.211+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:53:57.211+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:53:57.239+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:53:57.239+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:53:57.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.208 seconds
+[2023-08-30T23:54:27.507+0000] {processor.py:157} INFO - Started process (PID=3505) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:54:27.508+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:54:27.510+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:54:27.509+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:54:27.537+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:54:27.563+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:54:27.562+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:54:27.594+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:54:27.593+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:54:27.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.131 seconds
+[2023-08-30T23:54:57.837+0000] {processor.py:157} INFO - Started process (PID=3603) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:54:57.838+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:54:57.839+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:54:57.838+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:54:57.862+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:54:57.884+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:54:57.883+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:54:57.906+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:54:57.906+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:54:57.944+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.111 seconds
+[2023-08-30T23:55:28.075+0000] {processor.py:157} INFO - Started process (PID=3701) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:55:28.076+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:55:28.077+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:55:28.077+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:55:28.103+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:55:28.128+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:55:28.127+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:55:28.153+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:55:28.153+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:55:28.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.172 seconds
+[2023-08-30T23:55:58.843+0000] {processor.py:157} INFO - Started process (PID=3799) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:55:58.844+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:55:58.845+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:55:58.845+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:55:58.872+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:55:58.894+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:55:58.894+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:55:58.918+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:55:58.918+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:55:58.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.115 seconds
+[2023-08-30T23:56:29.821+0000] {processor.py:157} INFO - Started process (PID=3897) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:56:29.823+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:56:29.825+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:56:29.824+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:56:29.859+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:56:29.880+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:56:29.880+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:56:29.903+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:56:29.903+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:56:29.939+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.122 seconds
+[2023-08-30T23:57:00.130+0000] {processor.py:157} INFO - Started process (PID=3995) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:57:00.131+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:57:00.132+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:57:00.131+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:57:00.155+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:57:00.178+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:57:00.178+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:57:00.201+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:57:00.201+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:57:00.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.112 seconds
+[2023-08-30T23:57:30.955+0000] {processor.py:157} INFO - Started process (PID=4093) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:57:30.956+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:57:30.957+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:57:30.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:57:30.984+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:57:31.005+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:57:31.005+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:57:31.029+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:57:31.029+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:57:31.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.112 seconds
+[2023-08-30T23:58:01.702+0000] {processor.py:157} INFO - Started process (PID=4192) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:58:01.703+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:58:01.704+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:58:01.704+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:58:01.731+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:58:01.753+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:58:01.753+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:58:01.777+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:58:01.777+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:58:01.814+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.116 seconds
+[2023-08-30T23:58:32.588+0000] {processor.py:157} INFO - Started process (PID=4290) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:58:32.589+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:58:32.590+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:58:32.590+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:58:32.617+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:58:32.638+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:58:32.638+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:58:32.662+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:58:32.662+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:58:32.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.115 seconds
+[2023-08-30T23:59:03.213+0000] {processor.py:157} INFO - Started process (PID=4388) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:59:03.214+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:59:03.215+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:59:03.215+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:59:03.240+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:59:03.262+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:59:03.262+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:59:03.286+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:59:03.285+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:59:03.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.112 seconds
+[2023-08-30T23:59:33.865+0000] {processor.py:157} INFO - Started process (PID=4486) to work on /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:59:33.866+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_empty_with_edge_label.py for tasks to queue
+[2023-08-30T23:59:33.867+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:59:33.867+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:59:33.893+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_empty_with_edge_label']) retrieved from /opt/airflow/dags/dags_empty_with_edge_label.py
+[2023-08-30T23:59:33.916+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:59:33.916+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-30T23:59:33.942+0000] {logging_mixin.py:150} INFO - [2023-08-30T23:59:33.941+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_empty_with_edge_label to None, run_after=None
+[2023-08-30T23:59:33.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_empty_with_edge_label.py took 0.118 seconds
