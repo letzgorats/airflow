@@ -1,0 +1,96 @@
+[2023-09-30T07:47:58.529+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task permission to 509
+[2023-09-30T07:47:58.530+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task'
+[2023-09-30T07:47:58.680+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task permission to 509
+[2023-09-30T07:47:58.683+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task'
+[2023-09-30T07:47:59.074+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_python_show_templates.python_task scheduled__2023-09-06T09:30:00+00:00 [queued]>
+[2023-09-30T07:47:59.108+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_python_show_templates.python_task scheduled__2023-09-06T09:30:00+00:00 [queued]>
+[2023-09-30T07:47:59.110+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-09-30T07:47:59.212+0000] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): python_task> on 2023-09-06 09:30:00+00:00
+[2023-09-30T07:47:59.227+0000] {standard_task_runner.py:57} INFO - Started process 194 to run task
+[2023-09-30T07:47:59.235+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_python_show_templates', 'python_task', 'scheduled__2023-09-06T09:30:00+00:00', '--job-id', '264', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_show_templates.py', '--cfg-path', '/tmp/tmprpxjz6yr']
+[2023-09-30T07:47:59.241+0000] {standard_task_runner.py:85} INFO - Job 264: Subtask python_task
+[2023-09-30T07:47:59.380+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task permission to 509
+[2023-09-30T07:47:59.381+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_python_show_templates/run_id=scheduled__2023-09-06T09:30:00+00:00/task_id=python_task'
+[2023-09-30T07:47:59.392+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_python_show_templates.python_task scheduled__2023-09-06T09:30:00+00:00 [running]> on host 07fcf706bef2
+[2023-09-30T07:47:59.703+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_python_show_templates' AIRFLOW_CTX_TASK_ID='python_task' AIRFLOW_CTX_EXECUTION_DATE='2023-09-06T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-06T09:30:00+00:00'
+[2023-09-30T07:47:59.708+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.709+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.710+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.711+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.713+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.714+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.715+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.716+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.717+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.718+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.731+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.731+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-09-30T07:47:59.732+0000] {logging_mixin.py:150} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7fb892775dd0>,
+ 'conn': None,
+ 'dag': <DAG: dags_python_show_templates>,
+ 'dag_run': <DagRun dags_python_show_templates @ 2023-09-06 09:30:00+00:00: scheduled__2023-09-06T09:30:00+00:00, state:running, queued_at: 2023-09-30 07:47:45.737400+00:00. externally triggered: False>,
+ 'data_interval_end': DateTime(2023, 9, 7, 9, 30, 0, tzinfo=Timezone('UTC')),
+ 'data_interval_start': DateTime(2023, 9, 6, 9, 30, 0, tzinfo=Timezone('UTC')),
+ 'ds': '2023-09-06',
+ 'ds_nodash': '20230906',
+ 'execution_date': <Proxy at 0x7fb8740973c0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'execution_date', DateTime(2023, 9, 6, 9, 30, 0, tzinfo=Timezone('UTC')))>,
+ 'expanded_ti_count': None,
+ 'inlets': [],
+ 'logical_date': DateTime(2023, 9, 6, 9, 30, 0, tzinfo=Timezone('UTC')),
+ 'macros': <module '***.macros' from '/home/***/.local/lib/python3.7/site-packages/***/macros/__init__.py'>,
+ 'next_ds': <Proxy at 0x7fb874097460 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'next_ds', '2023-09-07')>,
+ 'next_ds_nodash': <Proxy at 0x7fb8740974b0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'next_ds_nodash', '20230907')>,
+ 'next_execution_date': <Proxy at 0x7fb874097550 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'next_execution_date', DateTime(2023, 9, 7, 9, 30, 0, tzinfo=Timezone('UTC')))>,
+ 'outlets': [],
+ 'params': {},
+ 'prev_data_interval_end_success': DateTime(2023, 9, 6, 9, 30, 0, tzinfo=Timezone('UTC')),
+ 'prev_data_interval_start_success': DateTime(2023, 9, 5, 9, 30, 0, tzinfo=Timezone('UTC')),
+ 'prev_ds': <Proxy at 0x7fb8740975a0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'prev_ds', '2023-09-05')>,
+ 'prev_ds_nodash': <Proxy at 0x7fb8740975f0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'prev_ds_nodash', '20230905')>,
+ 'prev_execution_date': <Proxy at 0x7fb874097640 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'prev_execution_date', DateTime(2023, 9, 5, 9, 30, 0, tzinfo=Timezone('UTC')))>,
+ 'prev_execution_date_success': <Proxy at 0x7fb874097690 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'prev_execution_date_success', DateTime(2023, 9, 5, 9, 30, 0, tzinfo=Timezone('UTC')))>,
+ 'prev_start_date_success': DateTime(2023, 9, 30, 7, 47, 45, 411916, tzinfo=Timezone('UTC')),
+ 'run_id': 'scheduled__2023-09-06T09:30:00+00:00',
+ 'task': <Task(_PythonDecoratedOperator): python_task>,
+ 'task_instance': <TaskInstance: dags_python_show_templates.python_task scheduled__2023-09-06T09:30:00+00:00 [running]>,
+ 'task_instance_key_str': 'dags_python_show_templates__python_task__20230906',
+ 'templates_dict': None,
+ 'test_mode': False,
+ 'ti': <TaskInstance: dags_python_show_templates.python_task scheduled__2023-09-06T09:30:00+00:00 [running]>,
+ 'tomorrow_ds': <Proxy at 0x7fb8740976e0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'tomorrow_ds', '2023-09-07')>,
+ 'tomorrow_ds_nodash': <Proxy at 0x7fb874097730 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'tomorrow_ds_nodash', '20230907')>,
+ 'triggering_dataset_events': {},
+ 'ts': '2023-09-06T09:30:00+00:00',
+ 'ts_nodash': '20230906T093000',
+ 'ts_nodash_with_tz': '20230906T093000+0000',
+ 'var': {'json': None, 'value': None},
+ 'yesterday_ds': <Proxy at 0x7fb874097780 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'yesterday_ds', '2023-09-05')>,
+ 'yesterday_ds_nodash': <Proxy at 0x7fb8740977d0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fb8740cef80>, 'yesterday_ds_nodash', '20230905')>}
+[2023-09-30T07:47:59.733+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-09-30T07:47:59.749+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dags_python_show_templates, task_id=python_task, execution_date=20230906T093000, start_date=20230930T074759, end_date=20230930T074759
+[2023-09-30T07:47:59.865+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-30T07:47:59.891+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

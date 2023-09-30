@@ -1,0 +1,7 @@
+[2023-09-30T07:47:42.261+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/dags_python_with_task_group.py
+[2023-09-30T07:47:42.262+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dags_python_with_task_group.py for tasks to queue
+[2023-09-30T07:47:42.263+0000] {logging_mixin.py:150} INFO - [2023-09-30T07:47:42.263+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_task_group.py
+[2023-09-30T07:47:42.289+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dags_python_with_task_group']) retrieved from /opt/airflow/dags/dags_python_with_task_group.py
+[2023-09-30T07:47:42.329+0000] {logging_mixin.py:150} INFO - [2023-09-30T07:47:42.329+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-30T07:47:42.459+0000] {logging_mixin.py:150} INFO - [2023-09-30T07:47:42.459+0000] {dag.py:3508} INFO - Setting next_dagrun for dags_python_with_task_group to 2023-09-30T07:47:40.794201+00:00, run_after=2023-10-01T07:47:40.794201+00:00
+[2023-09-30T07:47:42.555+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags_python_with_task_group.py took 0.298 seconds

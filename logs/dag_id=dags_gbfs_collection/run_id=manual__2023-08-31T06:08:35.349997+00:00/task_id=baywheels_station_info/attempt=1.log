@@ -1,0 +1,44 @@
+[2023-08-31T06:08:37.780+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info permission to 509
+[2023-08-31T06:08:37.781+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info'
+[2023-08-31T06:08:37.828+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info permission to 509
+[2023-08-31T06:08:37.828+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info'
+[2023-08-31T06:08:38.111+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_gbfs_collection.baywheels_station_info manual__2023-08-31T06:08:35.349997+00:00 [queued]>
+[2023-08-31T06:08:38.120+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_gbfs_collection.baywheels_station_info manual__2023-08-31T06:08:35.349997+00:00 [queued]>
+[2023-08-31T06:08:38.120+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-31T06:08:38.155+0000] {taskinstance.py:1327} INFO - Executing <Task(SimpleHttpOperator): baywheels_station_info> on 2023-08-31 06:08:35.349997+00:00
+[2023-08-31T06:08:38.162+0000] {standard_task_runner.py:57} INFO - Started process 3942 to run task
+[2023-08-31T06:08:38.167+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_gbfs_collection', 'baywheels_station_info', 'manual__2023-08-31T06:08:35.349997+00:00', '--job-id', '214', '--raw', '--subdir', 'DAGS_FOLDER/dags_gbfs_collection.py', '--cfg-path', '/tmp/tmp4k9ayxj3']
+[2023-08-31T06:08:38.171+0000] {standard_task_runner.py:85} INFO - Job 214: Subtask baywheels_station_info
+[2023-08-31T06:08:38.298+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info permission to 509
+[2023-08-31T06:08:38.299+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_gbfs_collection/run_id=manual__2023-08-31T06:08:35.349997+00:00/task_id=baywheels_station_info'
+[2023-08-31T06:08:38.303+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_gbfs_collection.baywheels_station_info manual__2023-08-31T06:08:35.349997+00:00 [running]> on host 07fcf706bef2
+[2023-08-31T06:08:38.419+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_gbfs_collection' AIRFLOW_CTX_TASK_ID='baywheels_station_info' AIRFLOW_CTX_EXECUTION_DATE='2023-08-31T06:08:35.349997+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-31T06:08:35.349997+00:00'
+[2023-08-31T06:08:38.421+0000] {http.py:123} INFO - Calling HTTP method
+[2023-08-31T06:08:38.430+0000] {base.py:73} INFO - Using connection ID 'gbfs_conn_id' for task execution.
+[2023-08-31T06:08:38.809+0000] {http.py:181} ERROR - HTTP error: Forbidden
+[2023-08-31T06:08:38.810+0000] {http.py:182} ERROR - <?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F0KSYMEETRNJ0DZX</RequestId><HostId>LUGVFgR8HtiNBRa4qqPVuXbP7tdFPzDOGX3MTgrX8Yr+sB1xCdQbk5+CaMBZkhaOR/glChZsEO8=</HostId></Error>
+[2023-08-31T06:08:38.820+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 179, in check_response
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://gbfs.baywheels.com:443/gbfs/2.3/station_information.json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/operators/http.py", line 125, in execute
+    response = http.run(self.endpoint, self.data, self.headers, self.extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 169, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 222, in run_and_check
+    self.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 183, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 403:Forbidden
+[2023-08-31T06:08:38.824+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=dags_gbfs_collection, task_id=baywheels_station_info, execution_date=20230831T060835, start_date=20230831T060838, end_date=20230831T060838
+[2023-08-31T06:08:38.856+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 214 for task baywheels_station_info (403:Forbidden; 3942)
+[2023-08-31T06:08:38.901+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-31T06:08:38.918+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

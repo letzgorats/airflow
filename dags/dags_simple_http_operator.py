@@ -6,35 +6,31 @@ import pendulum
 
 with DAG(
     dag_id = "dags_simple_http_operator",
-    start_date=pendulum.datetime(2023, 8, 1, tz="UTC"),
+    start_date=pendulum.datetime(2023,9,1,tz='Asia/Seoul'),
     catchup=False,
     schedule=None
 ) as dag:
     
-    '''BayWheels data information'''
-    baywheels_gbfs_info = SimpleHttpOperator(
-        task_id='baywheels_gbfs_info',
-        http_conn_id='gbfs.baywheels.com',
-        endpoint='/2.3/gbfs.json',  # API key is typically not part of the endpoint, it's either in headers or as a query parameter.
+    '''서울시 공공자전거 대여소 정보'''
+    tb_cycle_station_info = SimpleHttpOperator(
+        task_id = 'tb_cycle_station_info',
+        http_conn_id='openapi.seoul.go.kr',
+        endpoint='{{var.value.apikey_openapi_seoul_go_kr}}/json/tbCycleStationInfo/1/10',
         method='GET',
-        headers={'Accept': 'application/json'},
+        headers={'Content-Type':'applicaton/json','charset':'utf-8','Accept':'*/*'
+        }
     )
-
-    @task(task_id='process_gbfs_data')
-    def process_gbfs_data(**kwargs):
+    
+    @task(task_id="python_2")
+    def python_2(**kwargs):
+        
         import json
         from pprint import pprint
+
         ti = kwargs['ti']
-        response_data = ti.xcom_pull(task_ids='baywheels_gbfs_info')
-
-        try:
-            parsed_data = json.loads(response_data)
-            pprint(parsed_data)
-        except json.JSONDecodeError as e:
-            # Handle JSON parsing error. You can also use Airflow's logging mechanism.
-            print(f"Error parsing JSON: {e}")
-
-    baywheels_gbfs_info >> process_gbfs_data()
-
-
+        response_data= ti.xcom_pull(task_id='tb_cycle_station_info')
+        
+        pprint(json.loads(response_data)) 
     
+    tb_cycle_station_info >> python_2()
+

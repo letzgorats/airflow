@@ -1,0 +1,33 @@
+[2023-08-31T04:06:31.941+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info permission to 509
+[2023-08-31T04:06:31.943+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info'
+[2023-08-31T04:06:31.990+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info permission to 509
+[2023-08-31T04:06:32.003+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info'
+[2023-08-31T04:06:32.209+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_simple_http_operator.baywheels_gbfs_info manual__2023-08-31T04:06:29.803511+00:00 [queued]>
+[2023-08-31T04:06:32.219+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_simple_http_operator.baywheels_gbfs_info manual__2023-08-31T04:06:29.803511+00:00 [queued]>
+[2023-08-31T04:06:32.219+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-31T04:06:32.262+0000] {taskinstance.py:1327} INFO - Executing <Task(SimpleHttpOperator): baywheels_gbfs_info> on 2023-08-31 04:06:29.803511+00:00
+[2023-08-31T04:06:32.268+0000] {standard_task_runner.py:57} INFO - Started process 1815 to run task
+[2023-08-31T04:06:32.272+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_simple_http_operator', 'baywheels_gbfs_info', 'manual__2023-08-31T04:06:29.803511+00:00', '--job-id', '207', '--raw', '--subdir', 'DAGS_FOLDER/dags_simple_http_operator.py', '--cfg-path', '/tmp/tmp1aiygwju']
+[2023-08-31T04:06:32.274+0000] {standard_task_runner.py:85} INFO - Job 207: Subtask baywheels_gbfs_info
+[2023-08-31T04:06:32.322+0000] {logging_mixin.py:150} INFO - Changing /opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info permission to 509
+[2023-08-31T04:06:32.323+0000] {logging_mixin.py:150} INFO - Failed to change /opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=dags_simple_http_operator/run_id=manual__2023-08-31T04:06:29.803511+00:00/task_id=baywheels_gbfs_info'
+[2023-08-31T04:06:32.326+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_simple_http_operator.baywheels_gbfs_info manual__2023-08-31T04:06:29.803511+00:00 [running]> on host 07fcf706bef2
+[2023-08-31T04:06:32.445+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_simple_http_operator' AIRFLOW_CTX_TASK_ID='baywheels_gbfs_info' AIRFLOW_CTX_EXECUTION_DATE='2023-08-31T04:06:29.803511+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-31T04:06:29.803511+00:00'
+[2023-08-31T04:06:32.447+0000] {http.py:123} INFO - Calling HTTP method
+[2023-08-31T04:06:32.464+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/operators/http.py", line 125, in execute
+    response = http.run(self.endpoint, self.data, self.headers, self.extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 148, in run
+    session = self.get_conn(headers)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 100, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 463, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `gbfs.baywheels.com` isn't defined
+[2023-08-31T04:06:32.469+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=dags_simple_http_operator, task_id=baywheels_gbfs_info, execution_date=20230831T040629, start_date=20230831T040632, end_date=20230831T040632
+[2023-08-31T04:06:32.510+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 207 for task baywheels_gbfs_info (The conn_id `gbfs.baywheels.com` isn't defined; 1815)
+[2023-08-31T04:06:32.524+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-31T04:06:32.547+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
